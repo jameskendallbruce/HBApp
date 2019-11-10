@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S2d-CC-Zds">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="eJY-y4-dEX">
+            <objects>
+                <viewController id="RTd-mV-X98" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qgR-7c-UQn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="fJs-Wa-m6E"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="j0t-Ay-aTq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i4Z-Kf-ovh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1626" y="966"/>
+        </scene>
+        <!--Recipes-->
+        <scene sceneID="iJw-aY-Bjf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S2d-CC-Zds" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Recipes" image="icons8-test-tube-30" id="0Xs-up-qcT"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QKg-Mu-lVV">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RTd-mV-X98" kind="relationship" relationship="rootViewController" id="8lc-Hz-hHs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lv4-6t-EMK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1626" y="235"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-test-tube-30" width="30" height="30"/>
+    </resources>
+</document>

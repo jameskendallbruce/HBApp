@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		549FD7D22339A63C008740C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FD7D12339A63C008740C3 /* AppDelegate.swift */; };
+		549FD7D42339A63C008740C3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FD7D32339A63C008740C3 /* RootViewController.swift */; };
+		549FD7D62339A63C008740C3 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FD7D52339A63C008740C3 /* DataViewController.swift */; };
+		549FD7D82339A63C008740C3 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FD7D72339A63C008740C3 /* ModelController.swift */; };
+		549FD7F02339A6B9008740C3 /* Storyboards in Resources */ = {isa = PBXBuildFile; fileRef = 549FD7E72339A6B7008740C3 /* Storyboards */; };
+		549FD7F22339A6B9008740C3 /* fromgithub.plist in Resources */ = {isa = PBXBuildFile; fileRef = 549FD7E92339A6B8008740C3 /* fromgithub.plist */; };
+		549FD7F42339A6B9008740C3 /* HopAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FD7EB2339A6B8008740C3 /* HopAccessor.swift */; };
+		549FD7F52339A6B9008740C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549FD7EC2339A6B8008740C3 /* Assets.xcassets */; };
+		549FD7F62339A6B9008740C3 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FD7ED2339A6B8008740C3 /* JSONHelper.swift */; };
+		549FD7F72339A6B9008740C3 /* Calculators in Resources */ = {isa = PBXBuildFile; fileRef = 549FD7EE2339A6B8008740C3 /* Calculators */; };
+		549FD7FC2339ABF9008740C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549FD7FB2339ABF9008740C3 /* Main.storyboard */; };
+		549FD8012339AC24008740C3 /* HopsBrowser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549FD7FD2339AC23008740C3 /* HopsBrowser.storyboard */; };
+		549FD8022339AC24008740C3 /* Recipe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549FD7FE2339AC24008740C3 /* Recipe.storyboard */; };
+		549FD8032339AC24008740C3 /* HopsBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FD7FF2339AC24008740C3 /* HopsBrowserController.swift */; };
+		549FD8042339AC24008740C3 /* Ingredients.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549FD8002339AC24008740C3 /* Ingredients.storyboard */; };
+		549FD80C2339AC7C008740C3 /* IBUCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FD8052339AC7A008740C3 /* IBUCalculatorController.swift */; };
+		549FD80D2339AC7C008740C3 /* SRMCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FD8062339AC7B008740C3 /* SRMCalculatorController.swift */; };
+		549FD80E2339AC7C008740C3 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 549FD8072339AC7B008740C3 /* View.xib */; };
+		549FD80F2339AC7C008740C3 /* ABVCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FD8082339AC7B008740C3 /* ABVCalculatorController.swift */; };
+		549FD8102339AC7C008740C3 /* PrimingCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FD8092339AC7B008740C3 /* PrimingCalculatorController.swift */; };
+		549FD8112339AC7C008740C3 /* CalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FD80A2339AC7B008740C3 /* CalculatorController.swift */; };
+		549FD8122339AC7C008740C3 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549FD80B2339AC7C008740C3 /* Calculator.storyboard */; };
+		54B5B2B22377AD8D007FF379 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 54B5B2B12377AD8C007FF379 /* Base.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		549FD7CE2339A63C008740C3 /* HBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		549FD7D12339A63C008740C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		549FD7D32339A63C008740C3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		549FD7D52339A63C008740C3 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		549FD7D72339A63C008740C3 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		549FD7DA2339A63C008740C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/nah.storyboard; sourceTree = "<group>"; };
+		549FD7DF2339A63C008740C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/nah2.storyboard; sourceTree = "<group>"; };
+		549FD7E12339A63C008740C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549FD7E72339A6B7008740C3 /* Storyboards */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Storyboards; sourceTree = "<group>"; };
+		549FD7E92339A6B8008740C3 /* fromgithub.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fromgithub.plist; sourceTree = "<group>"; };
+		549FD7EB2339A6B8008740C3 /* HopAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HopAccessor.swift; sourceTree = "<group>"; };
+		549FD7EC2339A6B8008740C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		549FD7ED2339A6B8008740C3 /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		549FD7EE2339A6B8008740C3 /* Calculators */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Calculators; sourceTree = "<group>"; };
+		549FD7FB2339ABF9008740C3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		549FD7FD2339AC23008740C3 /* HopsBrowser.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HopsBrowser.storyboard; sourceTree = "<group>"; };
+		549FD7FE2339AC24008740C3 /* Recipe.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Recipe.storyboard; sourceTree = "<group>"; };
+		549FD7FF2339AC24008740C3 /* HopsBrowserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HopsBrowserController.swift; sourceTree = "<group>"; };
+		549FD8002339AC24008740C3 /* Ingredients.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ingredients.storyboard; sourceTree = "<group>"; };
+		549FD8052339AC7A008740C3 /* IBUCalculatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBUCalculatorController.swift; sourceTree = "<group>"; };
+		549FD8062339AC7B008740C3 /* SRMCalculatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRMCalculatorController.swift; sourceTree = "<group>"; };
+		549FD8072339AC7B008740C3 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		549FD8082339AC7B008740C3 /* ABVCalculatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABVCalculatorController.swift; sourceTree = "<group>"; };
+		549FD8092339AC7B008740C3 /* PrimingCalculatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimingCalculatorController.swift; sourceTree = "<group>"; };
+		549FD80A2339AC7B008740C3 /* CalculatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorController.swift; sourceTree = "<group>"; };
+		549FD80B2339AC7C008740C3 /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
+		54B5B2B12377AD8C007FF379 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		549FD7CB2339A63C008740C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		549FD7C52339A63C008740C3 = {
+			isa = PBXGroup;
+			children = (
+				549FD7D02339A63C008740C3 /* HBApp */,
+				549FD7CF2339A63C008740C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		549FD7CF2339A63C008740C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				549FD7CE2339A63C008740C3 /* HBApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		549FD7D02339A63C008740C3 /* HBApp */ = {
+			isa = PBXGroup;
+			children = (
+				549FD7D12339A63C008740C3 /* AppDelegate.swift */,
+				549FD7D32339A63C008740C3 /* RootViewController.swift */,
+				549FD7D52339A63C008740C3 /* DataViewController.swift */,
+				549FD7D72339A63C008740C3 /* ModelController.swift */,
+				549FD7D92339A63C008740C3 /* nah.storyboard */,
+				549FD7DE2339A63C008740C3 /* nah2.storyboard */,
+				549FD7FB2339ABF9008740C3 /* Main.storyboard */,
+				549FD7FD2339AC23008740C3 /* HopsBrowser.storyboard */,
+				549FD7FF2339AC24008740C3 /* HopsBrowserController.swift */,
+				549FD8002339AC24008740C3 /* Ingredients.storyboard */,
+				549FD7FE2339AC24008740C3 /* Recipe.storyboard */,
+				549FD8082339AC7B008740C3 /* ABVCalculatorController.swift */,
+				549FD80B2339AC7C008740C3 /* Calculator.storyboard */,
+				549FD80A2339AC7B008740C3 /* CalculatorController.swift */,
+				549FD8052339AC7A008740C3 /* IBUCalculatorController.swift */,
+				549FD8092339AC7B008740C3 /* PrimingCalculatorController.swift */,
+				54B5B2B12377AD8C007FF379 /* Base.lproj */,
+				549FD8062339AC7B008740C3 /* SRMCalculatorController.swift */,
+				549FD8072339AC7B008740C3 /* View.xib */,
+				549FD7EB2339A6B8008740C3 /* HopAccessor.swift */,
+				549FD7ED2339A6B8008740C3 /* JSONHelper.swift */,
+				549FD7E12339A63C008740C3 /* Info.plist */,
+				549FD7EC2339A6B8008740C3 /* Assets.xcassets */,
+				549FD7EE2339A6B8008740C3 /* Calculators */,
+				549FD7E92339A6B8008740C3 /* fromgithub.plist */,
+				549FD7E72339A6B7008740C3 /* Storyboards */,
+			);
+			path = HBApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		549FD7CD2339A63C008740C3 /* HBApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549FD7E42339A63C008740C3 /* Build configuration list for PBXNativeTarget "HBApp" */;
+			buildPhases = (
+				549FD7CA2339A63C008740C3 /* Sources */,
+				549FD7CB2339A63C008740C3 /* Frameworks */,
+				549FD7CC2339A63C008740C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBApp;
+			productName = HBApp;
+			productReference = 549FD7CE2339A63C008740C3 /* HBApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		549FD7C62339A63C008740C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Nolan Bruce";
+				TargetAttributes = {
+					549FD7CD2339A63C008740C3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 549FD7C92339A63C008740C3 /* Build configuration list for PBXProject "HBApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 549FD7C52339A63C008740C3;
+			productRefGroup = 549FD7CF2339A63C008740C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				549FD7CD2339A63C008740C3 /* HBApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		549FD7CC2339A63C008740C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549FD7F72339A6B9008740C3 /* Calculators in Resources */,
+				549FD8122339AC7C008740C3 /* Calculator.storyboard in Resources */,
+				549FD8012339AC24008740C3 /* HopsBrowser.storyboard in Resources */,
+				549FD8042339AC24008740C3 /* Ingredients.storyboard in Resources */,
+				549FD80E2339AC7C008740C3 /* View.xib in Resources */,
+				549FD7F22339A6B9008740C3 /* fromgithub.plist in Resources */,
+				549FD8022339AC24008740C3 /* Recipe.storyboard in Resources */,
+				549FD7FC2339ABF9008740C3 /* Main.storyboard in Resources */,
+				549FD7F52339A6B9008740C3 /* Assets.xcassets in Resources */,
+				54B5B2B22377AD8D007FF379 /* Base.lproj in Resources */,
+				549FD7F02339A6B9008740C3 /* Storyboards in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		549FD7CA2339A63C008740C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549FD80D2339AC7C008740C3 /* SRMCalculatorController.swift in Sources */,
+				549FD7F62339A6B9008740C3 /* JSONHelper.swift in Sources */,
+				549FD7D42339A63C008740C3 /* RootViewController.swift in Sources */,
+				549FD7D82339A63C008740C3 /* ModelController.swift in Sources */,
+				549FD7D62339A63C008740C3 /* DataViewController.swift in Sources */,
+				549FD80F2339AC7C008740C3 /* ABVCalculatorController.swift in Sources */,
+				549FD8032339AC24008740C3 /* HopsBrowserController.swift in Sources */,
+				549FD8112339AC7C008740C3 /* CalculatorController.swift in Sources */,
+				549FD7D22339A63C008740C3 /* AppDelegate.swift in Sources */,
+				549FD80C2339AC7C008740C3 /* IBUCalculatorController.swift in Sources */,
+				549FD8102339AC7C008740C3 /* PrimingCalculatorController.swift in Sources */,
+				549FD7F42339A6B9008740C3 /* HopAccessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		549FD7D92339A63C008740C3 /* nah.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				549FD7DA2339A63C008740C3 /* Base */,
+			);
+			name = nah.storyboard;
+			sourceTree = "<group>";
+		};
+		549FD7DE2339A63C008740C3 /* nah2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				549FD7DF2339A63C008740C3 /* Base */,
+			);
+			name = nah2.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		549FD7E22339A63C008740C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		549FD7E32339A63C008740C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		549FD7E52339A63C008740C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HBApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruce.HBApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		549FD7E62339A63C008740C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HBApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruce.HBApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		549FD7C92339A63C008740C3 /* Build configuration list for PBXProject "HBApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549FD7E22339A63C008740C3 /* Debug */,
+				549FD7E32339A63C008740C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549FD7E42339A63C008740C3 /* Build configuration list for PBXNativeTarget "HBApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549FD7E52339A63C008740C3 /* Debug */,
+				549FD7E62339A63C008740C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 549FD7C62339A63C008740C3 /* Project object */;
+}

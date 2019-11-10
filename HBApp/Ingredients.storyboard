@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7OD-zG-5hd">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ua6-Uh-U85">
+            <objects>
+                <viewController id="zMW-nq-X5Q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kso-vG-70k">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="eeT-Tm-lj9"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iIO-9B-AGs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Go-up-Aan" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-607" y="966"/>
+        </scene>
+        <!--Ingredients-->
+        <scene sceneID="Wcq-Iy-g6E">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7OD-zG-5hd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ingredients" image="icons8-list-30" id="2eA-Bc-RwA"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ik1-K0-nBg">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zMW-nq-X5Q" kind="relationship" relationship="rootViewController" id="JJH-Ce-BF3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ZW-sV-3DW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-607.24637681159425" y="231.69642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-list-30" width="30" height="30"/>
+    </resources>
+</document>
