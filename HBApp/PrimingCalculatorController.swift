@@ -16,9 +16,16 @@ class PrimingCalculatorController: UIViewController {
         // Do any additional setup after loading the view.
         var cornSugarObj : CornSugar
         
-        cornSugarObj = CornSugar(co2: 2.3, volume: 5.0, temperature: 70.0)
+        cornSugarObj = CornSugar(co2: 2.5, volume: 5.0, temperature: 65.0)
         
-        print("This is your corn results: " + String(cornSugarObj.calcPriming()))
+        var honeyObj : Honey
+
+        honeyObj = Honey(co2: 2.5, volume: 5.0, temperature: 65.0)
+
+        
+        print("This is your corn results: " + String(cornSugarObj.calcActual()))
+        print("This is your honey results: " + String(honeyObj.calcActual()))
+
     }
     
 
@@ -45,23 +52,52 @@ protocol PrimingSugar {
     var co2 : Float {get}
     var volume : Float {get}
     var temperature : Float {get}
+    var partsPerGallon: Float {get}
+    var yieldPercent: Float {get}
     
-    func calcPriming() -> Float
+    func calcIdeal() -> Float
+    //This calculates the default, ideal priming sugar (corn sugar) which has a 100% yield. For instances that are not 100%, we'll need to change that.
+    func calcActual() -> Float
 }
 
 extension PrimingSugar {
-    func calcPriming() -> Float {
+    func calcIdeal() -> Float {
         var result: Float
         result = 15.195 * self.volume * (self.co2 - 3.0378 + (0.050062 * self.temperature) - (0.00026555 * pow(self.temperature, 2)))
         return result
     }
+    
+    func calcActual() -> Float {
+        var result: Float
+        let idealResult : Float = calcIdeal()
+        result = (idealResult * 42 * 1.0)/(self.partsPerGallon * self.yieldPercent)
+        return result
+    }
 }
+
 
 struct CornSugar : PrimingSugar {
     var name : String = "Corn Sugar"
     var co2 : Float
     var volume : Float
     var temperature : Float
+    let partsPerGallon: Float = 42
+    let yieldPercent: Float = 1.0
+    
+    init(co2: Float, volume: Float, temperature: Float){
+        self.co2 = co2
+        self.volume = volume
+        self.temperature = temperature
+    }
+}
+
+struct Honey : PrimingSugar {
+    var name : String = "Honey"
+    var co2 : Float
+    var volume : Float
+    var temperature : Float
+    let partsPerGallon: Float = 38
+    let yieldPercent: Float = 0.95
     
     init(co2: Float, volume: Float, temperature: Float){
         self.co2 = co2
